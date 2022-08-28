@@ -2,5 +2,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/brhn/profile.brhn.me/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp css/resume.css $DEPLOYPATH
-    - /bin/cp js/resume.js $DEPLOYPATH
+    - /bin/cp css/resume.css $DEPLOYPATH/css
+    - /bin/cp js/resume.js $DEPLOYPATH/js
